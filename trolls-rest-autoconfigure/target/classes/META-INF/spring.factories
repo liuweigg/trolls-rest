@@ -1,0 +1,7 @@
+# Bootstrap components
+#org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+#com.ccs.cloud.bootstrap.BootstrapConfiguration
+
+# Environment Post Processor
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.ccs.trolls.rest.env.RestMicroservicesEnvironmentPostProcessor
